@@ -1,0 +1,17 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "Truffle project with SimpleStorage contract",
+  "main": "truffle-config.js",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.1",
+    "@truffle/hdwallet-provider": "^2.0.10",
+    "dotenv": "^16.0.3",
+    "truffle-plugin-verify": "^0.5.26"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "author": "",
+  "license": "MIT"
+}
